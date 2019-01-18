@@ -1,5 +1,5 @@
 class Card {
-  constructor(balance, entrystation = null, exitstation = null) {
+  constructor(balance, entrystation = Station, exitstation = Station) {
     this.balance = balance;
     this.entrystation = entrystation
     this.exitstation = exitstation
